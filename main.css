@@ -1,0 +1,73 @@
+
+body {
+    
+        background-image: url("tokoyo.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        box-sizing: border-box;
+        width: 100%;
+        
+
+    }
+
+#nav_bar {
+background-color: rgb(0, 0, 0);
+height: 20px;
+/* width: fit-content; */
+}
+#nav_bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-style: solid;
+    border-color: rgb(245, 242, 57);
+    border-width: 5px;
+    /* width: fit-content;
+    height: fit-content; */
+    padding: 10px;
+    font-size: 30px;
+}
+.home_header{
+    color: rgb(0, 0, 0);
+background-color:rgb(5, 117, 177) ;
+}
+h1{
+    color:rgb(0, 0, 0);
+    font-size: xx-large;
+    background-color:rgb(5, 117, 177) ;
+    align-items: center;
+    text-align: center;
+    
+}
+
+h2 {
+    color:#000000;
+    font-size: xx-large;
+     background-color: blue;
+     width: fit-content;
+     height: fit-content;
+
+}
+p {
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    background-color: blue;
+    width: fit-content;
+     height: fit-content;
+     text-align: center;
+}
+.container{
+    background-color: black;
+    /* width: fit-content;
+    height: fit-content; */
+}
+
+.home_image{
+    height: 400px;
+    
+display: flex;
+justify-content: center;
+}
